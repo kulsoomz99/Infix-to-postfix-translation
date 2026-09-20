@@ -1,13 +1,16 @@
 # Infix-to-Postfix Translation using Seq2Seq with Attention
 
+Instead of relying on hardcoded algorithmic rules (like the Shunting Yard algorithm), this project uses a data-driven **Sequence-to-Sequence (Seq2Seq) Encoder-Decoder architecture with an Attention Mechanism** to learn the underlying syntactic rules, operator precedence, and parenthetical groupings.
+This project implements a neural network-based approach to translate mathematical formulas from traditional **infix notation** (e.g., `(a + b) * c`) to **postfix notation** / Reverse Polish Notation (e.g., `ab+c*`). 
+
+---
+
 ## Author
 - Kulsoom Zaidi
 
-This project implements a neural network-based approach to translate mathematical formulas from traditional **infix notation** (e.g., `(a + b) * c`) to **postfix notation** / Reverse Polish Notation (e.g., `ab+c*`). 
-
-Instead of relying on hardcoded algorithmic rules (like the Shunting Yard algorithm), this project uses a data-driven **Sequence-to-Sequence (Seq2Seq) Encoder-Decoder architecture with an Attention Mechanism** to learn the underlying syntactic rules, operator precedence, and parenthetical groupings.
 
 ---
+
 
 ## Problem Description
 
