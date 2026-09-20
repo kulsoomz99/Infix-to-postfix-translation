@@ -1,6 +1,6 @@
 # Infix-to-Postfix Translation using Seq2Seq with Attention
 
-##
+## Author
 - Kulsoom Zaidi
 
 This project implements a neural network-based approach to translate mathematical formulas from traditional **infix notation** (e.g., `(a + b) * c`) to **postfix notation** / Reverse Polish Notation (e.g., `ab+c*`). 
